@@ -1,5 +1,5 @@
 :root {
-    --brand-color: #2196F3;
+    --brand-color: #2196F3; 
     --brand-color-two: #757575;
     --brand-color-three: #FFFFFF;
     --brand-color-four: black;
@@ -7,6 +7,7 @@
     --brand-color-six: #2F303A;
     --brand-color-seven: #F5F4FA;
     --brand-color-eight: #ECECEC;
+    --brand-color-nine: #AFB1B8;
     --body-bgcolor: #F5F5F5;
   }
 
@@ -125,6 +126,15 @@ ul {
         color: var(--brand-color-three);
         display: flex;    
     }
+
+    .item-studio {
+        width: 161px;
+    }
+
+    .heder-logo-studio {
+        width: 16px;
+        height: 12px;
+    }
     
     .contacts-studio .item-studio:not(:last-child) {
         margin-right: 50px;
@@ -132,7 +142,7 @@ ul {
     
     
     .contacts-studio .link-studio {
-        display: block;
+        display: flex;
         padding-top: 32px;
         padding-bottom: 32px;
         color: var(--brand-color-two);
@@ -199,7 +209,7 @@ ul {
     
     .qualities-studio {
         width: 1170px;
-        height: 98px;
+        height: 248px;
         margin: 0px 215px 0px 215px;
         padding-top: 94px;
         padding-bottom: 94px;
@@ -226,17 +236,51 @@ ul {
     
     .qualities-text-studio {
         padding-top: 20px;
-        margin-right: 30px;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: var(--brand-color-two);
     }
+
+    /* .qualities-list-studio: :nth-child(1) ::before {
+        background-image: url(./images/icons.svg#antenna)
+    } */
     
+
+    .qualities-list-studio {
+        width: 270px;
+        height: 248px;
+        margin-right: 30px;
+     }
+
     .qualities-list-studio:nth-child(4n) {
         margin-right: 0px;
     }
+
+    .qualities-listlogo-studio {
+        padding: 0;
+        border: none;
+        background-size: contain;
+        background-position: center;
+        content: "";
+    }
+
+    .qualities-listlogo-studio {
+        height: 120px;
+        width: 270px;
+        
+     }
+
+    
+
+     .qualities-logo-studio {
+        padding-left: 100px;
+        padding-top: 25px;
+        background-color: var(--brand-color-seven);
+     }
+
+
 
     /* .qualities-list-studio {
         display: block;
@@ -369,6 +413,8 @@ ul {
     }
     
     .team-list-studio {
+        width: 270px;
+        height: 428px;
         margin-right: 30px;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
@@ -398,18 +444,47 @@ ul {
 
     .team-socnet {
         display: flex;
-        justify-content: center;
+        width: 206px;
+        height: 44px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin: 0;
+        list-style: none;
     }
 
 
     .team-socnet-list {
         margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-position: center;
+    }
+
+    .team-socnet-list:hover {
+        background-color: var(--brand-color);
     }
 
     .team-socnet-list:nth-child(4n) {
         margin-right: 0px;
     }
     
+    .team-socnet-link {
+        padding: 12px;
+        width: 20px;
+        height: 20px;
+    }
+
+    /* .team-socnet-link:hover {
+        color: var(--brand-color-three);
+    } */
+
+    .loho:hover {
+        background-color: var(--brand-color-three);
+    }
+
 
 
     .customers-studio {
@@ -433,8 +508,7 @@ ul {
 
 
 
-/* 
-    test */
+    /* Regular customers */
 
   
       
@@ -446,37 +520,39 @@ ul {
             
     }
 
-    .client-one {
-        padding: 0;
-        margin: 0;
-        border: none;
-        
-    }
-
-    .icon-socnet-link {
-        padding: 0;
-        margin: 0;
-        border: none;
+    .icon-list-studio {
+        width: 170px;
+        height: 92px; 
+        border: 1px solid var(--brand-color-nine);
+        border-radius: 4px;   
+        background-size: cover;
         background-position: center;
         
     }
 
-    .icon-list-studio {
-        width: 170px;
-        height: 92px; 
-        border: 1px solid #AFB1B8;
-        border-radius: 4px;   
+    .icon-company-studio {
+        width: 106px;
+        height: 60px;
+        margin-left: 32px;
+    }
+
+    .icon-socnet-link {
+        padding: auto;
+        margin: auto;
+        border: none;
+        background-position: center;
         background-size: cover;
         
     }
 
+ 
 
-    .customers-list-studio {
+    .icon-list-studio {
         margin-right: 30px;
     }
 
 
-    .customers-list-studio:nth-child(6n) {
+    .icon-list-studio:nth-child(6n) {
         margin-right: 0px;
     }
     
@@ -553,6 +629,10 @@ ul {
     
     .contacts-tel-studio {
         margin-bottom: 60px;
+    }
+
+    .footer-socnet {
+        display: flex;
     }
 
 

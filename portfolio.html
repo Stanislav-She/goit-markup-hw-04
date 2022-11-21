@@ -44,10 +44,18 @@
         </nav>
         <ul class="contacts-portfolio">
           <li class="contacts-list-portfolio">
-            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link-portfolio link"
+              ><svg class="contacts-icon">
+                <use href="./images/icons.svg#envelope" width="16" height="12"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
           <li class="contacts-list-portfolio">
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link-portfolio link">
+              <svg class="contacts-icon">
+                <use href="./images/icons.svg#smartphone" width="16" height="12"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -61,7 +69,7 @@
     <main class="main-portfolio">
       <section class="main-content-portfolio section">
         <div class="container main-content-portfolio">
-          <h2 hidden>Основний блок</h2>
+          <h2 class="visually-hidden">>Основний блок</h2>
 
           <ul class="main-botton-portfolio">
             <li class="botton-text-portfolio">
@@ -202,30 +210,88 @@
     <!--------------------- FOOTER ---------------------->
     <footer class="footer-portfolio">
       <div class="container footer-portfolio-container">
-        <a href="./index.html" class="logo-link-footer-portfolio"
-          >Web<span class="logo-third-portfolio">Studio</span></a
-        >
+        <div class="footer-contacts-portfolio">
+          <a href="./index.html" class="logo-link-footer-portfolio"
+            >Web<span class="logo-third-portfolio">Studio</span></a
+          >
 
-        <address class="address-portfolio">
-          <ul class="contacts-footer-portfolio">
-            <li class="contacts-adress-portfolio">
+          <address class="address-portfolio">
+            <ul class="contacts-footer-portfolio">
+              <li class="contacts-adress-portfolio">
+                <a
+                  href="https://goo.gl/maps/w7Qsvtv9c9BFPGS2A"
+                  class="link link-portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="contacts-mail-portfolio">
+                <a href="mailto:info@devstudio.com" class="link-portfolio">info@devstudio.com</a>
+              </li>
+              <li class="contacts-tel-portfolio">
+                <a href="tel:+380961111111" class="link-portfolio">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-socnet-portfolio">
+          <h3 class="footer-soctitle-portfolio">Приєднуйтесь</h3>
+          <ul class="footer-team-socnet">
+            <li class="team-socnet-list">
               <a
-                href="https://goo.gl/maps/w7Qsvtv9c9BFPGS2A"
-                class="link"
+                class="team-footsocnet-link"
+                href="#"
                 target="_blank"
-                rel="noopener noreferrer"
-                class="link-portfolio"
-                >м. Київ, пр-т Лесі Українки, 26</a
+                rel="noopener noreferrer nofollow"
+                aria-label="instagram"
               >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="contacts-mail-portfolio">
-              <a href="mailto:info@devstudio.com" class="link-portfolio">info@devstudio.com</a>
+            <li class="team-socnet-list">
+              <a
+                class="team-footsocnet-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                aria-label="twitter"
+              >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="contacts-tel-portfolio">
-              <a href="tel:+380961111111" class="link-portfolio">+38 096 111 11 11</a>
+            <li class="team-footsocnet-list">
+              <a
+                class="team-footsocnet-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                aria-label="facebook"
+              >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-socnet-list">
+              <a
+                class="team-footsocnet-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                aria-label="linkedin"
+              >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
